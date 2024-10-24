@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class ArrrayList{
+  public static void main(String args[]){
+    //in main creating object of array list
+    ArrayList<String> list = new ArrayList<String>();
+    //adding data to list
+    list.add("volkswagen");
+    list.add("alto");
+    list.add("nano");
+    list.add("verna");
+    list.add("kwid");
+
+    //printing out unsorted list
+    System.out.println("before sorting:"+list);
+    //printing sorted list in ascending order
+    Collections.sort(list);
+    System.out.println("after sorting:"+list);
+    
+  }
+}
+  
